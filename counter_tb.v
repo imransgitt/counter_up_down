@@ -35,11 +35,11 @@ begin
 
   end
 
-  //initial
- // begin
-       //  $dumpfile("output.vcd");
-        // $dumpvars(1);
-  //end
+  initial
+    begin
+         $dumpfile("output.vcd");
+         $dumpvars(1);
+  end
 
   always #5 i_clk = ~i_clk;
 
