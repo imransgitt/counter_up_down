@@ -34,13 +34,13 @@ The mod-N conditional up-down counter is a digital counter that counts up or dow
 - **Reset**: When `i_rst` is asserted, the counter is asynchronously reset to 0, overriding all other signals.
 
 ## State Diagram
+Below is the state diagram for a MOD-7 counter design.
 
-![Output Waveform](Waveform.png)
-
+![Output Waveform](State_diagram.png)
 
 ## Waveform
 
-Below is a sample output waveform demonstrating the counter's operation. 
+Below is a output waveform demonstrating the operation of MOD-7 counter. 
 
 ![Output Waveform](Waveform.png)
 
