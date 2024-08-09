@@ -43,6 +43,6 @@ Below is a sample output waveform demonstrating the counter's operation.
 
 The following is the logic circuit diagram of the mod-7 conditional up-down counter using t-flipflop .
 
-![Logic Circuit](Vivado_synthesis.png)
+![Logic Circuit](logic_circuit.png)
 
 
