@@ -41,14 +41,8 @@ Below is a sample output waveform demonstrating the counter's operation.
 
 ## Logic Circuit
 
-The following is the logic circuit diagram of the mod-N conditional up-down counter.
+The following is the logic circuit diagram of the mod-7 conditional up-down counter using t-flipflop .
 
-![Logic Circuit](path_to_logic_circuit_image)
+![Logic Circuit](Vivado_synthesis.png)
 
-## Usage
 
-To use this counter in your design:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/repository_name.git
