@@ -33,6 +33,11 @@ The mod-N conditional up-down counter is a digital counter that counts up or dow
 - **Hold**: When `i_en` is deasserted, the counter holds its current value regardless of the clock edges.
 - **Reset**: When `i_rst` is asserted, the counter is asynchronously reset to 0, overriding all other signals.
 
+## State Diagram
+
+![Output Waveform](Waveform.png)
+
+
 ## Waveform
 
 Below is a sample output waveform demonstrating the counter's operation. 
