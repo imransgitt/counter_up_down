@@ -37,7 +37,7 @@ The mod-N conditional up-down counter is a digital counter that counts up or dow
 
 Below is a sample output waveform demonstrating the counter's operation. 
 
-![Output Waveform](path_to_waveform_image)
+![Output Waveform](Waveform.png)
 
 ## Logic Circuit
 
