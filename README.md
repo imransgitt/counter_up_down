@@ -36,7 +36,7 @@ The mod-N conditional up-down counter is a digital counter that counts up or dow
 ## State Diagram
 Below is the state diagram for a MOD-7 counter design.
 
-![Output Waveform](State_diagram.png)
+![Output Waveform](images/State_diagram.png)
 
 ## Waveform
 
@@ -48,6 +48,6 @@ Below is a output waveform demonstrating the operation of MOD-7 counter.
 
 The following is the logic circuit diagram of the mod-7 conditional up-down counter using t-flipflop .
 
-![Logic Circuit](logic_circuit.png)
+![Logic Circuit](images/logic_circuit.png)
 
 
