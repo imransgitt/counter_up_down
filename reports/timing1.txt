@@ -1,0 +1,42 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : counter
+Version: T-2022.03-SP5
+Date   : Tue Aug 13 14:27:40 2024
+****************************************
+
+Operating Conditions: tt_025C_1v80   Library: sky130_fd_sc_hd__tt_025C_1v80
+Wire Load Model Mode: top
+
+  Startpoint: o_Q_reg[2] (rising edge-triggered flip-flop clocked by design_clk)
+  Endpoint: o_Q[2] (output port clocked by design_clk)
+  Path Group: design_clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock design_clk (rise edge)                            0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  o_Q_reg[2]/CLK (sky130_fd_sc_hd__dfbbp_1)               0.00       1.00 r
+  o_Q_reg[2]/Q (sky130_fd_sc_hd__dfbbp_1)                 0.55       1.55 f
+  U24/Y (sky130_fd_sc_hd__inv_16)                         1.00       2.55 r
+  o_Q[2] (out)                                            0.00       2.55 r
+  data arrival time                                                  2.55
+
+  clock design_clk (rise edge)                           10.00      10.00
+  clock network delay (ideal)                             1.00      11.00
+  clock uncertainty                                      -0.25      10.75
+  output external delay                                  -2.00       8.75
+  data required time                                                 8.75
+  --------------------------------------------------------------------------
+  data required time                                                 8.75
+  data arrival time                                                 -2.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.20
+
+
+1
