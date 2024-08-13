@@ -42,7 +42,7 @@ Below is the state diagram for a MOD-7 counter design.
 
 Below is a output waveform demonstrating the operation of MOD-7 counter. 
 
-![Output Waveform](Waveform.png)
+![Output Waveform](images/Waveform.png)
 
 ## Logic Circuit
 
